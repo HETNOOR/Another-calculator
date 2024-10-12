@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func operationButtonPressed(_ sender: UIButton) {
-        guard let buttonText = sender.accessibilityIdentifier else { return }
+        guard let buttonText = sender.accessibilityLabel else { return }
         viewModel.handleOperationPress(buttonText, currentResultText: result.text)
     }
     

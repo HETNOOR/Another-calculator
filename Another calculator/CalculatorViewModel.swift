@@ -11,11 +11,11 @@ enum CalculationError: Error {
 }
 
 enum Operation: String {
-    case add = "plus"
-    case subtract = "minus"
-    case multiply = "multiply"
-    case divide = "divide"
-    case remainder = "remainder"
+    case add = "+"
+    case subtract = "-"
+    case multiply = "x"
+    case divide = "/"
+    case remainder = "%"
     
     func calculate(_ number1: Double, _ number2: Double) throws -> Double {
         switch self {

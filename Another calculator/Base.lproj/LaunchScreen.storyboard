@@ -17,8 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.terminal" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QeV-Ef-yP4">
-                                <rect key="frame" x="146.66666666666666" y="377.66666666666669" width="100" height="96.999999999999943"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="146.66666666666666" y="377.66666666666669" width="100" height="97"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QeV-Ef-yP4" secondAttribute="height" multiplier="1:1" id="7Mq-hy-3Ti"/>
                                     <constraint firstAttribute="height" constant="100" id="h9Q-Rv-oos"/>
@@ -26,7 +26,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <constraints>
                             <constraint firstItem="QeV-Ef-yP4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0zh-7G-Wwm"/>
                             <constraint firstItem="QeV-Ef-yP4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="RRj-KG-i5p"/>
@@ -40,8 +40,8 @@
     </scenes>
     <resources>
         <image name="apple.terminal" catalog="system" width="128" height="93"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -27,9 +27,6 @@
                                             <button opaque="NO" tag="6" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0z-sL-h9k" customClass="RoundedButton" customModule="Another_calculator" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
                                                 <color key="backgroundColor" name="LightButtonColor"/>
-                                                <accessibility key="accessibilityConfiguration">
-                                                    <bool key="isElement" value="NO"/>
-                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="n0z-sL-h9k" secondAttribute="height" multiplier="1:1" id="mVb-zi-xbT"/>
                                                 </constraints>
@@ -44,13 +41,12 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZR-Ry-W5s" customClass="RoundedButton" customModule="Another_calculator" customModuleProvider="target">
                                                 <rect key="frame" x="95" y="0.0" width="87" height="87"/>
                                                 <color key="backgroundColor" name="LightButtonColor"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="plusSlashMinus"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="qZR-Ry-W5s" secondAttribute="height" multiplier="1:1" id="apq-mW-3RV"/>
                                                 </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="plus.slash.minus" catalog="system">
+                                                <state key="normal" image="plus.forwardslash.minus" catalog="system">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
                                                 </state>
@@ -61,7 +57,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hv5-Qn-jzS" customClass="RoundedButton" customModule="Another_calculator" customModuleProvider="target">
                                                 <rect key="frame" x="190" y="0.0" width="87" height="87"/>
                                                 <color key="backgroundColor" name="LightButtonColor"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="remainder">
+                                                <accessibility key="accessibilityConfiguration" label="%">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <constraints>
@@ -81,7 +77,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0f-N0-vwb" customClass="RoundedButton" customModule="Another_calculator" customModuleProvider="target">
                                                 <rect key="frame" x="285" y="0.0" width="87" height="87"/>
                                                 <color key="backgroundColor" name="OrangeButtonColor"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="divide">
+                                                <accessibility key="accessibilityConfiguration" label="/">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <constraints>
@@ -152,7 +148,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzm-8i-QrY" customClass="RoundedButton" customModule="Another_calculator" customModuleProvider="target">
                                                 <rect key="frame" x="285" y="0.0" width="87" height="87"/>
                                                 <color key="backgroundColor" name="OrangeButtonColor"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="multiply">
+                                                <accessibility key="accessibilityConfiguration" label="x">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <constraints>
@@ -222,7 +218,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7E-ZV-waX" customClass="RoundedButton" customModule="Another_calculator" customModuleProvider="target">
                                                 <rect key="frame" x="285" y="0.0" width="87" height="87"/>
                                                 <color key="backgroundColor" name="OrangeButtonColor"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="minus">
+                                                <accessibility key="accessibilityConfiguration" label="-">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <constraints>
@@ -291,7 +287,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sk5-Qb-q4r" customClass="RoundedButton" customModule="Another_calculator" customModuleProvider="target">
                                                 <rect key="frame" x="285" y="0.0" width="87" height="87"/>
                                                 <color key="backgroundColor" name="OrangeButtonColor"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="plus">
+                                                <accessibility key="accessibilityConfiguration" label="+">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <constraints>
@@ -362,7 +358,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWL-tx-o9t">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="WWL-tx-o9t">
                                 <rect key="frame" x="10" y="239.66666666666666" width="382" height="95.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -370,7 +366,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CdT-TR-hUe">
                                 <rect key="frame" x="10" y="229.66666666666666" width="382" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" systemColor="systemGrayColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -396,7 +392,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131" y="-27"/>
+            <point key="canvasLocation" x="129.85074626865671" y="-27.459954233409608"/>
         </scene>
     </scenes>
     <resources>
@@ -407,7 +403,7 @@
         <image name="multiply" catalog="system" width="128" height="111"/>
         <image name="percent" catalog="system" width="128" height="121"/>
         <image name="plus" catalog="system" width="128" height="113"/>
-        <image name="plus.slash.minus" catalog="system" width="128" height="115"/>
+        <image name="plus.forwardslash.minus" catalog="system" width="128" height="115"/>
         <namedColor name="BackgroundColor">
             <color red="0.14499999582767487" green="0.14900000393390656" blue="0.14499999582767487" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
